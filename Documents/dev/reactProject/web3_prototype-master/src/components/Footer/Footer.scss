@@ -1,0 +1,43 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    // TODO: Iconとpタグの間を詰める
+
+    @media (min-width: 960px) {
+        display: none;
+    }
+
+    div {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.2rem;
+        height: 60px;
+        border-top: 1px solid #ccc;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #f0f0f0;
+        }
+
+        svg {
+            font-size: 24px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 12px;
+        }
+    }
+}

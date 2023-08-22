@@ -1,0 +1,9 @@
+div {
+    // 他のスタイルがある場合はここに追加
+
+    p {
+        font-weight: bold; // ボールドにする
+        text-align: left; // 左側に寄せる
+        margin-left: 1rem; // 左側の余白を追加して、さらに左側に寄せる
+    }
+}

@@ -1,0 +1,22 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; // 下部のマージンを追加
+
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    // TODO:文字の位置など変更
+    p {
+        margin-top: 1rem;
+        font-weight: bold;
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+    }
+}

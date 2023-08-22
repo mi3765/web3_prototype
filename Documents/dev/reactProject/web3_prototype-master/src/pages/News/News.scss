@@ -1,0 +1,32 @@
+.news-container {
+    margin: 0 auto;
+    text-align: center;
+
+    .news-title {
+        margin-top: 3rem;
+    }
+
+    .news-title-container {
+        display: flex;
+        width: 50%;
+        justify-content: left;
+        margin: 0 auto;
+        padding: 0 0 1rem 0;
+        border-bottom: 0.1rem #333 solid;
+
+        .news-title-list {
+            list-style: none;
+            width: 20%;
+        }
+    }
+
+    .news-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+
+        .news-item {
+            list-style: none;
+        }
+    }
+}

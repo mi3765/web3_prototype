@@ -1,0 +1,26 @@
+.routes-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    @media (min-width: 961px) {
+        padding: 0 40px;
+    }
+}
+
+.card {
+    padding: 10px;
+    color: #000;
+    background: #fff;
+
+    @media (max-width: 960px) {
+        flex: 0 0 calc(33.33% - 25px);
+        margin: 1px;
+    }
+
+    @media (min-width: 961px) {
+        flex: 0 0 calc(20% - 30px);
+        margin: 4px;
+        margin-bottom: 20px;
+    }
+}

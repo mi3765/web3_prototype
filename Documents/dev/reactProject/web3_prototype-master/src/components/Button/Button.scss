@@ -1,0 +1,13 @@
+.post-button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #0090FF;
+    }
+}
